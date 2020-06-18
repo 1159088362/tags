@@ -1,0 +1,3 @@
+
+export const FETCH_ADD_DATA = "FETCH_ADD_DATA"
+export const FETCH_ADD_CHECK = "FETCH_ADD_CHECK"
