@@ -25,8 +25,8 @@ function Tags(props) {
         data.map(v => {
           return(
             <Tag closable onClose={() => log(v.key)} key={v.key}>
-            {v.name}
-          </Tag>
+              {v.name}
+            </Tag>
           )
         })
       }

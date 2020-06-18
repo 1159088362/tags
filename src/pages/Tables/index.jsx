@@ -52,11 +52,6 @@ function Tables(props) {
       key: 'address',
     },
   ];
-  // const rowSelection = {
-  //   onChange: (selectedRowKeys, selectedRows) => {
-  //     addData(selectedRows)
-  //   }
-  // };
     return (
       <Table
         rowSelection={rowSelection}
